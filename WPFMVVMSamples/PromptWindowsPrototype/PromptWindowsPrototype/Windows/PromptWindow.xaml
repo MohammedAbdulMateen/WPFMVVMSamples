@@ -1,0 +1,16 @@
+﻿<mui:ModernWindow x:Class="PromptWindowsPrototype.Windows.PromptWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:util="clr-namespace:PWP.ViewModels.Utilities;assembly=PWP.ViewModels"
+        x:Name="PromptWindowView" WindowStartupLocation="CenterScreen" Style="{StaticResource PromptWindowStyle}">
+    <!--<i:Interaction.Triggers>
+        <util:EventTriggerHandler EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding PromptWindowLoaded}" CommandParameter="{Binding ElementName=PromptWindowView}"/>
+        </util:EventTriggerHandler>
+    </i:Interaction.Triggers>
+    <Grid>
+        <ContentControl Content="{Binding PromptWindowContent}"/>
+    </Grid>-->
+</mui:ModernWindow>
